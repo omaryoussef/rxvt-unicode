@@ -17,3 +17,18 @@ Compile with
     sudo make install
 
 See `README.configure` for more details and configuration options.
+
+# Extra
+
+A sample .Xdefaults is provided copy it to your home directory and use:
+    
+    xrdb ~/.Xdefaults
+
+to load the configurations
+
+## Enable Perl extensions.
+Clone urxvt-perls:
+
+    https://github.com/muennich/urxvt-perls
+
+And move all perl scripts to `/usr/lib/urxvt/perl/`.
